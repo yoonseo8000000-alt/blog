@@ -1,5 +1,9 @@
 #!/bin/bash
 
+cd /Users/yoonseo/bookbot
+
+python3 crawl.py
+
 cd /Users/yoonseo/Desktop/blog
 
 hugo
