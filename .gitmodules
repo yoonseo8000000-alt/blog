@@ -1,0 +1,6 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/yoonseo8000000-alt/yoonseo8000000-alt.github.io.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
