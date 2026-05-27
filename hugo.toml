@@ -3,3 +3,7 @@ languageCode = 'ko-kr'
 title = 'yoonseo blog'
 theme = 'PaperMod'
 googleAnalytics = 'G-L1HQS37SS0'
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 1
