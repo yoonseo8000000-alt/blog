@@ -6,7 +6,7 @@ python3 crawl.py
 
 cd /Users/yoonseo/Desktop/blog
 
-hugo
+hugo --cleanDestinationDir
 
 git add .
 git commit -m "auto update"
