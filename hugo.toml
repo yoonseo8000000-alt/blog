@@ -7,3 +7,7 @@ googleAnalytics = 'G-L1HQS37SS0'
 name = "Posts"
 url = "/posts/"
 weight = 1
+[[menu.main]]
+name = "Bookbot"
+url = "/bookbot/"
+weight = 2
