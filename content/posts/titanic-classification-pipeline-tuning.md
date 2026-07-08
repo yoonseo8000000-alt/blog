@@ -67,7 +67,7 @@ pipeline = Pipeline(steps=[
 
 **왜 이 구조가 중요한가?**
 
-![Pipeline이 데이터 누수를 막는 구조](images/pipeline_leakage_diagram.png)
+![Pipeline이 데이터 누수를 막는 구조](/images/titanic-classification-pipeline-tuning/pipeline_leakage_diagram.png)
 
 전처리(imputer, scaler, encoder)를 `Pipeline` 안에 넣으면, 교차검증의 각 fold마다 전처리기가 **오직 그 fold의 학습 데이터에만** `fit`된다. 즉:
 
@@ -147,11 +147,12 @@ test_roc_auc = roc_auc_score(y_test, y_proba)
 
 Confusion Matrix와 `classification_report`로 정밀도/재현율/F1을 확인했다.
 
-![Titanic 생존 예측 Confusion Matrix](images/confusion_matrix.png)
+![Titanic 생존 예측 Confusion Matrix](/images/titanic-classification-pipeline-tuning/confusion_matrix.png)
 
 `feature_importances_`로 어떤 변수가 생존 예측에 크게 기여했는지도 확인했다. One-hot 인코딩 이후의 컬럼명은 `get_feature_names_out()`으로 매핑했다.
 
-![RandomForest Feature Importance Top 15](images/feature_importance.png)
+![RandomForest Feature Importance Top 15](/images/titanic-classification-pipeline-tuning/feature_importance.png)
+
 
 - fold별 생존 비율을 표로 직접 검증해서 StratifiedKFold가 제대로 작동했는지 눈으로 확인
 
