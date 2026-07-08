@@ -2,7 +2,8 @@
 title: "Kaggle House Prices: XGBoost/LightGBM 앙상블로 주택 가격 예측하기"
 date: 2026-07-06
 draft: false
-tags: ["kaggle", "machine-learning", "regression", "xgboost", "lightgbm"]
+tags: ["Kaggle", "머신러닝", "회귀분석", "이어드림스쿨", "xgboost", "lightgbm"]
+categories: ["Study"]
 ---
 
 ## Overview
